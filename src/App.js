@@ -56,7 +56,7 @@ export default function App() {
       <Title title="Phonebook" />
       <ContactForm onSubmit={addContact} />
 
-      <Title title="Contacts" />
+      <h2>Contacts</h2>
       <Filter value={filter} onChange={handleChangeFilter} />
       <ContactList
         visibleContacts={visibleContacts()}
